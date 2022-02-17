@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="uk.tw.energy.controller.PricePlanComparatorControllerTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2022-02-16T18:53:07" hostname="LAPTOP-HDPO3MDP" time="0.01">
+  <properties/>
+  <testcase name="shouldRecommendLimitedCheapestPricePlansForMeterUsage()" classname="uk.tw.energy.controller.PricePlanComparatorControllerTest" time="0.005"/>
+  <testcase name="shouldRecommendCheapestPricePlansMoreThanLimitAvailableForMeterUsage()" classname="uk.tw.energy.controller.PricePlanComparatorControllerTest" time="0.0"/>
+  <testcase name="givenNoMatchingMeterIdShouldReturnNotFound()" classname="uk.tw.energy.controller.PricePlanComparatorControllerTest" time="0.0"/>
+  <testcase name="shouldCalculateCostForMeterReadingsForEveryPricePlan()" classname="uk.tw.energy.controller.PricePlanComparatorControllerTest" time="0.001"/>
+  <testcase name="shouldRecommendCheapestPricePlansNoLimitForMeterUsage()" classname="uk.tw.energy.controller.PricePlanComparatorControllerTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
