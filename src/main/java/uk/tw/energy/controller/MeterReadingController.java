@@ -57,12 +57,4 @@ public class MeterReadingController {
                 ? ResponseEntity.ok(readings.get()) // if value of reading is present -> .get() -> fetches the value.
                 : ResponseEntity.notFound().build();
     }
-
-    /**
-     *
-     */
-//    @GetMapping("/password/validate")
-//    public ResponseEntity validatePassword(@RequestParam String password, @RequestParam Long userId) {
-//
-//    }
 }
